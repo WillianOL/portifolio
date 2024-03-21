@@ -1,0 +1,37 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  color: var(--corTexto);
+  .comando {
+    font-size: 1.3rem;
+    font-weight: bold;
+    span {
+      color: var(--corDestaque);
+    }
+  }
+  .nome {
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+  }
+  .profissao {
+    font-size: 2rem;
+    font-weight: 400;
+    span {
+      color: var(--corDestaque);
+    }
+  }
+  .texto {
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    max-width: 600px;
+    span {
+      color: var(--corDestaque);
+    }
+  }
+  .buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 55px;
+  }
+}
