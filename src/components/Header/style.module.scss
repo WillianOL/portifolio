@@ -3,7 +3,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 14px 25px;
-  position: sticky;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
   margin: 0 auto;
   width: 90%;
   max-width: 1700px;
