@@ -1,0 +1,11 @@
+.conteiner {
+  max-width: 570px;
+  .paragrafo {
+    font-size: .95rem;
+    color: var(--corTexto);
+    margin-bottom: 5px;
+    span {
+      font-weight: 600;
+    }
+  }
+}

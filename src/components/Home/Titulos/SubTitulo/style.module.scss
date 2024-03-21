@@ -1,0 +1,19 @@
+.subtitulo {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  position: relative;
+  color: var(--corTexto);
+  &::before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--corDestaque);
+    bottom: -7px;
+  }
+  span {
+    color: var(--corDestaque);
+  }
+}
