@@ -1,11 +1,13 @@
 .sectionConteiner {
   background-color: var(--conteinerFundo);
+  width: 90vw;
+  max-width: 1600px;
   border-radius: 20px;
   position: relative;
   &::before {
     position: absolute;
-    content: "";
-    background-image: url("../../../img/section/detalhe_section.png");
+    content: '';
+    background-image: url('../../../img/section/detalhe_section.png');
     background-position: center;
     background-size: cover;
     top: 10px;
@@ -15,8 +17,8 @@
   }
   &::after {
     position: absolute;
-    content: "";
-    background-image: url("../../../img/section/detalhe_section.png");
+    content: '';
+    background-image: url('../../../img/section/detalhe_section.png');
     background-position: center;
     background-size: cover;
     bottom: 10px;
