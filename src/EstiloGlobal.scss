@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -10,14 +10,16 @@
 
 :root {
   --fontePrincipal: 'Poppins', Arial, sans-serif;
-  --fonteCapa: 'Playfair Display', serif;
-  --corDestaque: #ff7121;
-  --corDestaque2: #FFE7D9;
-  --branco: #F5F5F5;
-  --corTexto: #1e1e1e;
-  --corSubtexto: #747474;
+  --corDestaque: #f95252;
+  --branco: #fff;
+  --conteinerFundo: #f5f5f5;
+  --corTexto: #333333;
+  --projeto01: #f7f0ff;
+  --projeto02: #f0fff7;
+  --projeto03: #f0fcff;
 }
 
-section, footer {
+section,
+footer {
   padding: 0px 50px;
 }
