@@ -1,5 +1,7 @@
 import React from 'react';
 import Skills from './Skills/Skills';
+import Principais from './Principais/Principais';
+import style from './style.module.scss'
 
 const Ferramentas = () => {
   const skills = [
@@ -13,8 +15,9 @@ const Ferramentas = () => {
     'GitHub',
   ];
   return (
-    <div>
+    <div className={style.conteiner}>
       <Skills skills={skills} />
+      <Principais />
     </div>
   );
 };
