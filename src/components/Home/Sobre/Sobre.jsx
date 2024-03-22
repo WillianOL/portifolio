@@ -1,8 +1,9 @@
 import React from 'react';
 import Section from '../Section/Section';
-import style from './style.module.scss';
 import Text from './Text/Text';
 import Titulo from '../Titulos/Titulo';
+import Ferramentas from './Ferramentas/Ferramentas';
+import style from './style.module.scss';
 
 const Sobre = () => {
   return (
@@ -11,7 +12,7 @@ const Sobre = () => {
         <Titulo>Eu, dev Willian Oliveira</Titulo>
         <div className={style.conteudo}>
           <Text />
-          
+          <Ferramentas />
         </div>
       </div>
     </Section>
