@@ -1,0 +1,19 @@
+.titulo {
+  font-size: 2rem;
+  text-align: center;
+  &.separador {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 20px;
+      height: 2px;
+      border-radius: 2px;
+      background-color: var(--corDestaque);
+      bottom: -10px;
+    }
+  }
+}

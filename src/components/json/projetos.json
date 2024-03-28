@@ -1,0 +1,34 @@
+{
+  "destaque": [
+    {
+      "titulo": "Parede de Postites",
+      "descricao": "Uma 'parede' de postites, ou uma to do list de postites/cards personalizaveis, ou seja, pode-se mudar a cor e o texto dentro do card e quando uma alteração é feita o card de exemplo da sidebar é modificado em tempo real. Tendo a opção de deletar um card desejado.",
+      "tecnologias": ["React", "Javascript", "Sass"],
+      "banner": "https://i.ibb.co/jRjPPKx/Capa-projeto.png",
+      "links": {
+        "deploy": "https://list-of-notes.vercel.app/",
+        "github": "https://github.com/WillianOL/List-of-notes"
+      }
+    },
+    {
+      "titulo": "Carrinho de compras",
+      "descricao": "Essa é uma loja virtual de sapatos inspirada na Adidas, com um carrinho de compras 100% funcional. Nele, pode-se adicionar, remover e mudar o número de itens do carrinho. A cada alteração no número de itens os valores mudam e o valor total do carrinho e atualizado.",
+      "tecnologias": ["Javascript", "HTML", "CSS"],
+      "banner": "https://i.ibb.co/2F15PVC/Banner.png",
+      "links": {
+        "deploy": "https://carrinho-de-compras-6ro9.vercel.app/assets/index.html",
+        "github": "https://github.com/WillianOL/carrinho-de-compras"
+      }
+    },
+    {
+      "titulo": "GalaxyTec",
+      "descricao": "Uma página estática de uma loja de tecnologia fictícia, inspirada nas duas empresas pioneiras na área Dell e Samsung. Com submenus de itens, login e carrinho de compras. Um carrosselcom os principais itens e uma parte de destaque. Contando também com um footer de contato.",
+      "tecnologias": ["Javascript", "HTML", "CSS"],
+      "banner": "https://i.ibb.co/ssH6wX1/Capa-do-projeto.png",
+      "links": {
+        "deploy": "https://loja-tec-landing-page.vercel.app/assets/index.html",
+        "github": "https://github.com/WillianOL/lojaTec-landingPage"
+      }
+    }
+  ]
+}

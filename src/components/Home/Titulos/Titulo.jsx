@@ -1,9 +1,9 @@
 import React from 'react'
-import style from './style.module.scss'
+import './style.scss'
 
-const Titulo = ({children, cor="#333333"}) => {
+const Titulo = ({children, cor="#333333", separador}) => {
   return (
-    <h1 style={{color:`${cor}`}} className={style.titulo}>
+    <h1 style={{color:`${cor}`}} className={`titulo ${separador && "separador"}`} >
       {children}
     </h1>
   )
