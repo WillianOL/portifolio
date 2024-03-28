@@ -5,6 +5,8 @@
   gap: 15px;
   min-height: 450px;
   padding: 90px 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.03);
   p {
     font-weight: 400;
     font-size: 0.95rem;
@@ -12,13 +14,16 @@
   }
   .informacoes {
     width: 80%;
+    position: relative;
     align-self: baseline;
+    z-index: 500;
   }
   .tecnologias {
     display: flex;
     align-items: center;
     gap: 5px;
     position: relative;
+    z-index: 500;
     padding: 0px 10px;
     width: fit-content;
     margin-bottom: 35px;
@@ -71,6 +76,8 @@
   .imgConteiner {
     img {
       border-radius: 25px;
+      z-index: 500;
+      position: relative;
     }
   }
 }

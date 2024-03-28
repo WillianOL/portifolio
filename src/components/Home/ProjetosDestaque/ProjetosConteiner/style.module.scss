@@ -2,4 +2,55 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  & > div {
+    position: relative;
+    &:nth-child(1) {
+      background-color: var(--projeto01);
+      &::before {
+        position: absolute;
+        background-image: url('../../../../img/projeto/fundo_p1.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 800px;
+        right: 0px;
+        height: 100%;
+        content: '';
+        z-index: 100;
+      }
+    }
+    &:nth-child(2) {
+      background-color: var(--projeto02);
+      &::before {
+        position: absolute;
+        background-image: url('../../../../img/projeto/fundo_p2.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 800px;
+        right: 0px;
+        z-index: 100;
+        height: 100%;
+        content: '';
+      }
+    }
+    &:nth-child(3) {
+      background-color: var(--projeto03);
+      &::before {
+        position: absolute;
+        background-image: url('../../../../img/projeto/fundo_p3.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 800px;
+        right: 0px;
+        z-index: 100;
+        height: 100%;
+        content: '';
+      }
+    }
+  }
 }
