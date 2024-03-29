@@ -33,7 +33,7 @@
       color: var(--branco);
       font-weight: 300;
       padding: 4px 10px;
-      border-radius: calc(var(--borderRadius) + 5px) ;
+      border-radius: calc(var(--borderRadius) + 5px);
     }
     &::before {
       position: absolute;
@@ -66,10 +66,18 @@
       color: var(--branco);
       text-decoration: none;
       border: 1px solid transparent;
+      transition: all .2s ease;
       &:last-child {
         background-color: var(--branco);
         color: var(--corDestaque);
         border-color: var(--corDestaque);
+        &:hover {
+          color: var(--branco);
+        }
+      }
+      &:hover {
+        background-color: var(--corTexto);
+        border-color: var(--branco);
       }
     }
   }
