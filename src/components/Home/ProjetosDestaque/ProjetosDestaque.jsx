@@ -3,6 +3,7 @@ import Section from '../Section/Section';
 import style from './style.module.scss';
 import Titulo from '../Titulos/Titulo';
 import ProjetosConteiner from './ProjetosConteiner/ProjetosConteiner';
+import ButtonProjetos from './ButtonProjetos/ButtonProjetos';
 
 const ProjetosDestaque = () => {
   return (
@@ -15,6 +16,7 @@ const ProjetosDestaque = () => {
           minha caminhada de aprendizado.
         </p>
         <ProjetosConteiner />
+        <ButtonProjetos />
       </div>
     </Section>
   );
