@@ -1,0 +1,39 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  .titulo {
+    font-size: 1.3rem;
+    color: var(--branco);
+    font-weight: 600;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 20px;
+      height: 2px;
+      border-radius: 2px;
+      background-color: var(--corDestaque);
+      bottom: -6.5px;
+    }
+  }
+  .redesLista {
+    display: flex;
+    gap: 13px;
+    li {
+      a {
+        display: flex;
+        font-size: 1.8rem;
+        color: var(--corTexto);
+        padding: 7px;
+        border-radius: 6px;
+        background-color: var(--branco);
+        transition: all .2s ease;
+        &:hover {
+          background-color: var(--corDestaque);
+          color: var(--branco);
+        }
+      }
+    }
+  }
+}

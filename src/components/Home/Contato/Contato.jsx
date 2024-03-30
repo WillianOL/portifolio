@@ -5,7 +5,7 @@ import TextoERedes from './TextoERedes/TextoERedes'
 
 const Contato = () => {
   return (
-    <Section fundo={"#333333"}>
+    <Section fundo="#333333">
       <div className={style.conteiner}>
         <TextoERedes />
       </div>
