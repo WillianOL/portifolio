@@ -1,0 +1,69 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  padding: 38px 36px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: var(--borderRadius);
+  width: 50%;
+  max-width: 680px;
+  .campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      color: var(--branco);
+      font-size: 1.15rem;
+      width: 100%;
+      font-weight: 400;
+      input,
+      textarea {
+        outline: none;
+        padding: 10px;
+        border-radius: var(--borderRadius);
+        background-color: rgba(255, 255, 255, 0.35);
+        padding: 5px 10px;
+        font-size: 1rem;
+        color: var(--branco);
+        font-weight: 300;
+        &:focus {
+          outline: 0.5px solid var(--corDestaque);
+        }
+      }
+      textarea {
+        resize: none;
+        height: 100px;
+        padding: 10px;
+      }
+    }
+  }
+  .botaoEEmail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    button {
+      padding: 15px 20px;
+      font-size: 1.15rem;
+      border-radius: var(--borderRadius);
+      background-color: var(--corDestaque);
+      color: var(--branco);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      &:hover {
+        background-color: var(--preto);
+      }
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      color: var(--branco);
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

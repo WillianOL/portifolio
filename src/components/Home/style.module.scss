@@ -5,4 +5,13 @@
   flex-direction: column;
   padding: 25px 60px;
   margin-top: 90px;
+  // imagem de fundo da section de contato
+  section {
+    &:nth-child(4) {
+      background-image: url("../../img/projeto/fundo_contato.png");
+      background-position: right;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
 }
