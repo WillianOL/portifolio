@@ -7,7 +7,7 @@ const TextoERedes = () => {
   return (
     <div className={style.conteiner}>
       <Texto />
-      <Redes />
+      <Redes titulo={"Redes"} />
     </div>
   )
 }

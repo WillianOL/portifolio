@@ -1,7 +1,7 @@
 .conteiner {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 12px;
   .titulo {
     font-size: 1.3rem;
     color: var(--branco);
@@ -14,7 +14,7 @@
       height: 2px;
       border-radius: 2px;
       background-color: var(--corDestaque);
-      bottom: -6.5px;
+      bottom: -6px;
     }
   }
   .redesLista {

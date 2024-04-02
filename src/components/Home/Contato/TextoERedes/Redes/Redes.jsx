@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
 import style from './style.module.scss'
 
-const Redes = () => {
+const Redes = ({titulo}) => {
   const links = [
     {
       icone: <FaLinkedinIn />,
@@ -19,7 +19,7 @@ const Redes = () => {
   ];
   return (
     <div className={style.conteiner}>
-      <h2 className={style.titulo}>Redes</h2>
+      <h2 className={style.titulo}>{titulo}</h2>
       <ul className={style.redesLista}>
         {links.map(({ icone, link }) => {
           return (
