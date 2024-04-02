@@ -1,0 +1,28 @@
+.frase {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 2rem;
+  color: var(--branco);
+  font-weight: 700;
+  p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 1000px;
+    span {
+      color: var(--corDestaque);
+    }
+  }
+  img {
+    width: 67px;
+    height: 67px;
+  }
+  &:nth-child(2),
+  &:nth-child(4) {
+    flex-direction: row-reverse;
+    text-align: end;
+    p {
+      max-width: 900px;
+    }
+  }
+}
