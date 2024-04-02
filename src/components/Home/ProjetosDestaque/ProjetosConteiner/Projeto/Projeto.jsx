@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Projeto.module.scss';
 import SubTitulo from '../../../Titulos/SubTitulo/SubTitulo';
+import ButtonLink from '../../../ButtonLink/ButtonLink';
 
 const Projeto = ({
   projetos: { titulo, descricao, tecnologias, banner, links },
@@ -16,12 +17,8 @@ const Projeto = ({
           ))}
         </ul>
         <nav className={style.buttons}>
-          <a href={links.deploy} target="_blank" rel="noreferrer">
-            Ver projeto
-          </a>
-          <a href={links.github} target="_blank" rel="noreferrer">
-            GitHub
-          </a>
+          <ButtonLink caminho={links.deploy} target="_blanck">Ver projeto</ButtonLink>
+          <ButtonLink caminho={links.github} target="_blanck">Github</ButtonLink>
         </nav>
       </div>
       <div className={style.imgConteiner}>

@@ -1,8 +1,7 @@
 import React from 'react';
 import SubTitulo from '../../Titulos/SubTitulo/SubTitulo';
 import style from './style.module.scss';
-import ButtonLink from '../../Apresentacao/ButtonLink/Button';
-
+import ButtonLink from '../../ButtonLink/ButtonLink';
 const Text = () => {
   return (
     <div className={style.conteiner}>
@@ -40,7 +39,11 @@ const Text = () => {
         </a>
         .
       </p>
-      <ButtonLink route="contato" text="Contato" marginTop="50px"/>
+      <div>
+        <ButtonLink caminho={'contato'} NavLink={true}>
+          Contate-me
+        </ButtonLink>
+      </div>
     </div>
   );
 };

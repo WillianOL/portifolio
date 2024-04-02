@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
-import { NavLink } from 'react-router-dom';
-import ButtonLink from '../ButtonLink/Button';
+import ButtonLink from '../../ButtonLink/ButtonLink';
+import { FaCloudDownloadAlt } from 'react-icons/fa';
 
 const Conteudo = () => {
   return (
@@ -23,8 +23,17 @@ const Conteudo = () => {
         </span>
       </p>
       <div className={style.buttons}>
-        <ButtonLink text="Contato" route="contato" cor="#1E1E1E" />
-        <ButtonLink text="Meu curriculo" route="contato" cor="#FFF" color="#333333"/>
+        <ButtonLink caminho={'contato'} NavLink={true} fundo={'#333333'}>
+          Contato
+        </ButtonLink>
+        <ButtonLink
+          fundo={'#FFF'}
+          cor={'#333333'}
+          caminho={"https://drive.google.com/file/d/1MduWNEJXotsUc9UkRFYMpSdF9tO8A1zQ/view?usp=sharing"}
+          target="_blanck"
+        >
+          Currículo <FaCloudDownloadAlt />
+        </ButtonLink>
       </div>
     </div>
   );

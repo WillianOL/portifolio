@@ -8,4 +8,12 @@
       font-weight: 600;
     }
   }
+  & > div {
+    margin: 50px 0px;
+    a {
+      &:hover {
+        background-color: var(--corTexto);
+      }
+    }
+  }
 }

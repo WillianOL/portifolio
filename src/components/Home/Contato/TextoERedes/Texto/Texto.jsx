@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './style.module.scss'
+import ButtonLink from '../../../ButtonLink/ButtonLink'
 
 const Texto = () => {
   return (

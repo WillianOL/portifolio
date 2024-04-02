@@ -3,7 +3,7 @@ import Section from '../Section/Section';
 import style from './style.module.scss';
 import Titulo from '../Titulos/Titulo';
 import ProjetosConteiner from './ProjetosConteiner/ProjetosConteiner';
-import ButtonProjetos from './ButtonProjetos/ButtonProjetos';
+import ButtonLink from '../ButtonLink/ButtonLink';
 
 const ProjetosDestaque = () => {
   return (
@@ -16,7 +16,9 @@ const ProjetosDestaque = () => {
           minha caminhada de aprendizado.
         </p>
         <ProjetosConteiner />
-        <ButtonProjetos />
+        <ButtonLink NavLink={true} caminho={'/projetos'} >
+          Todos os projetos
+        </ButtonLink>
       </div>
     </Section>
   );

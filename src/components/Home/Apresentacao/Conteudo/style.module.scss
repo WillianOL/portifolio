@@ -31,7 +31,22 @@
   }
   .buttons {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     margin-top: 55px;
+    a {
+      &:hover {
+        background-color: var(--corDestaque) !important;
+      }
+      &:nth-child(2) {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-color: var(--corTexto);
+        &:hover {
+          color: var(--branco) !important;
+          border-color: var(--branco) !important;
+        }
+      }
+    }
   }
 }
