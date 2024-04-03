@@ -4,10 +4,10 @@ import SubTitulo from '../../../Titulos/SubTitulo/SubTitulo';
 import ButtonLink from '../../../ButtonLink/ButtonLink';
 
 const Projeto = ({
-  projetos: { titulo, descricao, tecnologias, banner, links },
+  projetos: { titulo, descricao, tecnologias, banner, links, background="" },
 }) => {
   return (
-    <div className={style.projeto}>
+    <div className={style.projeto} style={{backgroundColor:background}}>
       <div className={style.informacoes}>
         <SubTitulo>{titulo}</SubTitulo>
         <p>{descricao}</p>
