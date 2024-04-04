@@ -2,6 +2,8 @@ import React from 'react'
 import style from './style.module.scss'
 import projetos from '../../json/projetos.json'
 import Projeto from '../../Home/ProjetosDestaque/ProjetosConteiner/Projeto/Projeto'
+import CardEmBreve from './CardEmBreve/CardEmBreve'
+
 
 const ProjetosConteiner = () => {
   return (
@@ -9,6 +11,7 @@ const ProjetosConteiner = () => {
       {projetos.projetosTodos.map((projeto) => {
         return <Projeto projetos={projeto}/>
       })}
+      <CardEmBreve />
     </div>
   )
 }

@@ -13,6 +13,12 @@
     animation-timeline: view();
     animation-range: cover 0% cover 45%;
   }
+  & > div {
+    align-self: flex-start;
+    &:nth-child(2n) {
+      align-self: end;
+    }
+  }
 }
 
 @keyframes showProject {
@@ -20,5 +26,11 @@
     transform: translateX(-100px);
     opacity: 0;
     scale: 0.8;
+  }
+}
+
+@keyframes iconRoda {
+  from {
+    transform: rotate(-180deg);
   }
 }
