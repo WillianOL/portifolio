@@ -9,7 +9,7 @@ const ProjetosConteiner = () => {
   return (
     <div className={style.projetosConteiner}>
       {projetos.projetosTodos.map((projeto) => {
-        return <Projeto projetos={projeto}/>
+        return <Projeto projetos={projeto} key={projeto.titulo}/>
       })}
       <CardEmBreve />
     </div>
