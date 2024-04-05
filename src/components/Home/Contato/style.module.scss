@@ -3,4 +3,10 @@
   justify-content: space-between;
   padding: 56px 0px;
   min-height: 580px;
+  @media (max-width: 1024px) {
+    padding: 0px;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 }

@@ -8,6 +8,9 @@
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
+    @media (max-width: 1024px) {
+      background-size: cover;
+    }
     &:nth-child(2) {
       background-color: var(--projeto02);
       background-image: url("../../../../img/projeto/fundo_p2.png");
@@ -16,5 +19,9 @@
       background-color: var(--projeto03);
       background-image: url("../../../../img/projeto/fundo_p3.png");
     }
+  }
+
+  @media (max-width: 1024px) {
+    padding: 20px 0px;
   }
 }

@@ -6,4 +6,7 @@
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
+  @media (max-width:768px) {
+    display: none;
+  }
 }

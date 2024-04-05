@@ -90,4 +90,21 @@
       max-width: 1200px;
     }
   }
+  @media (max-width: 1024px) {
+    flex-direction: column-reverse;
+    .imgConteiner {
+      img {
+        max-width: 450px;
+      }
+    }
+    .informacoes {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        text-align: center;
+      }
+    }
+  }
 }

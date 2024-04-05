@@ -47,4 +47,9 @@ li {
 
 body {
   padding-top: 130px;
+  @media (max-width:768px) {
+    padding-top: 20px;
+  }
 }
+
+

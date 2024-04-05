@@ -20,4 +20,12 @@
   img {
     max-width: 50px;
   }
+  @media (max-width:768px) {
+    bottom: 20px;
+    padding: 20px 25px;
+    top: auto;
+    max-height: fit-content;
+    background-color: white;
+    justify-content: center;
+  }
 }

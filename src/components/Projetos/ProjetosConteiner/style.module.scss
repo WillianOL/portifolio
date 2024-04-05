@@ -12,6 +12,11 @@
     animation: showProject;
     animation-timeline: view();
     animation-range: cover 0% cover 45%;
+    @media (max-width: 1024px) {
+      img {
+        max-width: 500px !important;
+      }
+    }
   }
   & > div {
     align-self: flex-start;
@@ -26,11 +31,5 @@
     transform: translateX(-100px);
     opacity: 0;
     scale: 0.8;
-  }
-}
-
-@keyframes iconRoda {
-  from {
-    transform: rotate(-180deg);
   }
 }

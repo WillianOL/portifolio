@@ -4,4 +4,8 @@
   position: relative;
   margin-top: 200px;
   background-color: var(--corTexto);
+  @media (max-width:768px) {
+    padding-bottom: 100px;
+    padding-top: 200px;
+  }
 }

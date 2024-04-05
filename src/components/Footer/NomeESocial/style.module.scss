@@ -49,4 +49,11 @@
       top: -66px;
     }
   }
+  @media (max-width:768px) {
+    padding-top: 20px;
+    & > div {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
 }

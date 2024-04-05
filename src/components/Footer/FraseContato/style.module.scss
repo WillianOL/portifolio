@@ -24,4 +24,13 @@
       background-color: var(--corTexto);
     }
   }
+  @media (max-width:768px) {
+    max-width: 500px;
+    flex-direction: column-reverse;
+    align-items: center;
+    .frase {
+      font-size: .9rem;
+      text-align: center;
+    }
+  }
 }
