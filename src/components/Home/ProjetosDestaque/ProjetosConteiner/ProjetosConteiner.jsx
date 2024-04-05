@@ -1,5 +1,5 @@
 import React from 'react';
-import projetosJSON from '../../../json/projetos.json';
+import projetosJSON from '../../../../json/projetos.json';
 import Projeto from './Projeto/Projeto';
 import style from "./style.module.scss"
 

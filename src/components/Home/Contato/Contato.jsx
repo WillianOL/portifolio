@@ -2,7 +2,7 @@ import React from 'react'
 import Section from '../Section/Section'
 import style from './style.module.scss'
 import TextoERedes from './TextoERedes/TextoERedes'
-import Form from './TextoERedes/Form/Form'
+import Form from './Form/Form'
 
 const Contato = () => {
   return (

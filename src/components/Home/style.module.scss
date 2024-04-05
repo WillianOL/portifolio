@@ -15,5 +15,10 @@
   }
   @media (max-width: 1024px) {
    padding: 0px;
+   section {
+    &:last-child {
+      background-size: cover;
+    }
+   }
   }
 }

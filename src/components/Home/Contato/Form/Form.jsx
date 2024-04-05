@@ -2,7 +2,7 @@ import React from 'react';
 import Input from './Input/Input';
 import style from './style.module.scss';
 import emailJS from '@emailjs/browser';
-import useForm from '../../../../../hooks/useForm';
+import useForm from '../../../../hooks/useForm';
 
 const Form = () => {
   const email = useForm('email');
