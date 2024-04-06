@@ -5,6 +5,7 @@
   border-radius: 20px;
   margin: 0 auto;
   position: relative;
+  animation: showSection .5s ease;
   &::before {
     position: absolute;
     content: '';
@@ -29,7 +30,17 @@
     height: 20px;
   }
 
+  &:first-child {
+  }
+
   @media (max-width:768px) {
     padding: 30px 20px;
+  }
+}
+
+@keyframes showSection {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
   }
 }

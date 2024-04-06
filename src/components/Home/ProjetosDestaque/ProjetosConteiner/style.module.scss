@@ -8,6 +8,9 @@
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
+    animation: showProject;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
     @media (max-width: 1024px) {
       background-size: cover;
     }
@@ -26,5 +29,13 @@
     & > div {
       background-size: cover;
     }
+  }
+}
+
+@keyframes showProject {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+    scale: 0.8;
   }
 }
