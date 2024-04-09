@@ -29,7 +29,7 @@ const Conteudo = () => {
         <ButtonLink
           fundo={'#FFF'}
           cor={'#333333'}
-          caminho={"https://drive.google.com/file/d/1MduWNEJXotsUc9UkRFYMpSdF9tO8A1zQ/view?usp=sharing"}
+          caminho={"https://drive.google.com/file/d/1aoImCVqxpEAmvlb1qGzlOl5yx4SNWlP1/view?usp=sharing"}
           target="_blanck"
         >
           Currículo <FaCloudDownloadAlt />
