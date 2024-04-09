@@ -12,7 +12,13 @@
       background-size: contain;
       background-repeat: no-repeat;
     }
+    //imagem fundo frases
+    &:nth-child(3) {
+      background: url("../../img/section/detalhes_mensagens.png") center center;
+      background-size: cover;
+    }
   }
+
   @media (max-width: 1024px) {
    padding: 0px;
    section {
@@ -20,5 +26,12 @@
       background-size: cover;
     }
    }
+  }
+  @media (max-width: 768px) {
+    section {
+      &:nth-child(3) {
+        background-image: none;
+      }
+    }
   }
 }
