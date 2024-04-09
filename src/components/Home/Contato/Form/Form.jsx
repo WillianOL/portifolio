@@ -3,11 +3,14 @@ import Input from './Input/Input';
 import style from './style.module.scss';
 import emailJS from '@emailjs/browser';
 import useForm from '../../../../hooks/useForm';
+import MensagemEnviado from './MensagemEnviado.jsx/MensagemEnviado';
 
 const Form = () => {
   const email = useForm('email');
   const nome = useForm();
   const mensagem = useForm();
+  const [sendSucess, setSendSucess] = React.useState(true)
+  const [loading, setLoading] = React.useState(false)
 
   const key = 'XXdq-rUWujevjsbPD';
   const serviceId = 'service_1qd9zhx';
@@ -26,10 +29,13 @@ const Form = () => {
       message: mensagem.valor,
       email: email.valor,
     };
+    setLoading(true)
     emailJS.send(serviceId, templateId, templateParams, key).then((res) => {
       nome.setValor('');
       email.setValor('');
       mensagem.setValor('');
+      setSendSucess(true)
+      setLoading(false)
     });
   }
 
@@ -39,9 +45,10 @@ const Form = () => {
         <Input label="Seu Nome" {...nome} />
         <Input label="Email" tipo="email" {...email} />
         <Input label="Mensagem" {...mensagem} textarea={true} />
+        <MensagemEnviado sendSecess={sendSucess} setSendSucess={setSendSucess} />
       </div>
       <div className={style.botaoEEmail}>
-        <button>Enviar email</button>
+        <button disabled={loading}>Enviar email</button>
         <p>
           Ou me contate diretamente em{' '}
           <a href="mailto:williancontato67@gmail.com" className="link">

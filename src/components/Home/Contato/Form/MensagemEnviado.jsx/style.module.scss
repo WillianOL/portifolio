@@ -1,0 +1,19 @@
+.mensagemEnviada {
+  position: absolute;
+  bottom: 120px;
+  max-width: 550px;
+  background-color: #5fcc20;
+  padding: 20px;
+  color: var(--branco);
+  font-size: 1rem;
+  border-radius: var(--borderRadius);
+  animation: animaMensagem .3s ease;
+}
+
+@keyframes animaMensagem {
+  from {
+    opacity: 0;
+    scale: .5;
+    transform: translateX(-100px);
+  }
+}

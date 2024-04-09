@@ -53,10 +53,17 @@
       border-radius: var(--borderRadius);
       background-color: var(--corDestaque);
       color: var(--branco);
-      cursor: pointer;
       transition: all 0.2s ease;
+      cursor: pointer;
       &:hover {
         background-color: var(--preto);
+      }
+      &:disabled {
+        opacity: 0.5;
+        cursor: wait;
+        &:hover {
+          background-color: var(--corDestaque);
+        }
       }
     }
     p {
