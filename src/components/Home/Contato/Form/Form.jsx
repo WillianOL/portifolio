@@ -6,8 +6,8 @@ import useForm from '../../../../hooks/useForm';
 
 const Form = () => {
   const email = useForm('email');
-  const nome = useForm('nome');
-  const mensagem = useForm('mensagem');
+  const nome = useForm();
+  const mensagem = useForm();
 
   const key = 'XXdq-rUWujevjsbPD';
   const serviceId = 'service_1qd9zhx';
@@ -17,6 +17,7 @@ const Form = () => {
     event.preventDefault();
     if (!email.valor || !nome.valor || !mensagem.valor) {
       nome.setError('Preencha com um valor');
+      nome.campo.current.focus()
       return;
     }
 

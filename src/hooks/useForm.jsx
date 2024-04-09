@@ -11,6 +11,7 @@ const dado = {
 const useForm = (tipoDado) => {
   const [valor, setValor] = React.useState('');
   const [error, setError] = React.useState('');
+  const campo = React.useRef()
 
   function validacao(value) {
     if (value.length === 0) {
@@ -35,6 +36,7 @@ const useForm = (tipoDado) => {
     setValor,
     onChange,
     setError,
+    campo,
     error,
     onBlur: () => validacao(valor),
   };

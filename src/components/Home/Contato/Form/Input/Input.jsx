@@ -9,14 +9,15 @@ const Input = ({
   textarea,
   label,
   tipo = 'text',
+  campo
 }) => {
   return (
     <label>
       {label}
       {textarea ? (
-        <textarea value={valor} onChange={onChange} onBlur={onBlur}></textarea>
+        <textarea value={valor} onChange={onChange} onBlur={onBlur} ref={campo}></textarea>
       ) : (
-        <input type={tipo} value={valor} onChange={onChange} onBlur={onBlur} />
+        <input type={tipo} value={valor} onChange={onChange} onBlur={onBlur} ref={campo}/>
       )}
       {error && <p className={style.erro}>{error}</p>}
     </label>
