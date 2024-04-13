@@ -1,9 +1,9 @@
 <div> 
-  <h1 align="center">Spotify Clone - React👨‍💻</h1> 
+  <h1 align="center">Portifólio - React👨‍💻</h1> 
 </div>
 
 <div>
-  <h3 align="center">Clone de uma página do spotify, feita com React.</h3>
+  <h3 align="center">Meu portifólio de densenvolvedor WEB</h3>
 </div>
 
 <div align='center'>
@@ -22,12 +22,11 @@
 </div>
 
 
-
-<div>
-	<h2>Sobre o projeto📃</h2>
-	<p>Este é o meu portfólio de desenvolvedor web, onde apresento todos os projetos que já desenvolvi até hoje, além de informações sobre mim e formas de contato. Durante esse projeto, apliquei meu conhecimento e técnicas em tecnologia React, abrangendo desde componentes e hooks até custom hooks. Também utilizei o React Router para criar rotas dinâmicas. Além disso, implementei um formulário de contato que envia e-mails diretamente do portfólio por meio da API emailJS.</p>
-  <p>O projeto foi estruturado em pastas e subpastas. Cada componente possui sua própria pasta, incluindo os componentes relacionados a ele, bem como o arquivo de estilo com a extensão `.module`. Essa abordagem evita conflitos entre os estilos e torna o projeto mais organizado e fácil de manter. Além disso, alguns componentes, como os links e botões, são personalizáveis, o que ajuda a evitar repetições no código.</p>
-</div>
+## Sobre o projeto📃
+Este é o meu portfólio de desenvolvedor web, onde apresento todos os projetos que já desenvolvi até hoje, além de informações sobre mim e formas de contato. Durante esse projeto, apliquei meu conhecimento e técnicas em tecnologia React, abrangendo desde componentes e hooks até custom hooks. Também utilizei o React Router para criar rotas dinâmicas. Além disso, implementei um formulário de contato que envia e-mails diretamente do portfólio por meio da API emailJS.
+ <br>
+ <br>
+O projeto foi estruturado em pastas e subpastas. Cada componente possui sua própria pasta, incluindo os componentes relacionados a ele, bem como o arquivo de estilo com a extensão `.module`, por exemplo `Projeto.module.scss`. Essa abordagem evita conflitos entre os estilos e torna o projeto mais organizado e fácil de manter. Além disso, alguns componentes, como os links e botões, são personalizáveis, o que ajuda a evitar repetições no código.
  
 ### Deploy(vercel)✈
 
@@ -37,3 +36,4 @@
 &nbsp;
 
 ## Explicação sobre o projeto
+
