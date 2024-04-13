@@ -36,4 +36,58 @@ O projeto foi estruturado em pastas e subpastas. Cada componente possui sua pró
 &nbsp;
 
 ## Explicação sobre o projeto
+### Routes
+Utilizei o React Router para dividir o projeto em rotas, o que tornou a página mais reativa sem a necessidade de carregamentos adicionais. O projeto consiste em quatro rotas no total: Home, Sobre, Contato e Projetos. No componente `<Home />`, coloquei toda a página principal com links para acessar as outras rotas. As rotas foram configuradas no componente `<App />`.
+<div align="center">
+	<img align="center" src="https://github.com/WillianOL/portifolio/assets/112639055/44a7cd1c-fac0-41ee-bcec-f6a5e84bdfe4" width="700px">
+</div>
+
+### Estrutura e organização
+
+A organização de pastas no meu projeto foi planejada para ser coerente e fácil de entender. Na pasta src, criei as seguintes subpastas:
+<ul>
+	<li>
+		<code>components</code>: Aqui, cada componente tem sua própria pasta. Dentro dela, encontramos o arquivo JSX correspondente e o estilo em SASS com a extensão .module. Se um componente contém outros componentes em sua composição, esses também têm suas próprias pastas, mantendo os estilos separados.
+	</li>
+	<li>
+		<code>hooks</code>: Nesta pasta, agrupei todos os custom hooks do projeto. Isso facilita a reutilização e a manutenção dessas funcionalidades.
+	</li>
+	<li>
+ 		<code>img</code>: As imagens estão organizadas em subpastas dentro desta pasta. Isso ajuda a manter a estrutura limpa e permite que as imagens sejam facilmente localizadas.
+ 	</li>
+	<li>
+		<code>json</code>: Aqui, temos um arquivo JSON que contém informações sobre todos os projetos. Essa abordagem centraliza os dados e torna mais simples a atualização ou expansão do conteúdo.
+	</li>
+</ul>
+<div align="center">
+	<img align="center" src="https://github.com/WillianOL/portifolio/assets/112639055/72f565e6-939f-463e-921a-59f0aaf91b83" width="250px">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
