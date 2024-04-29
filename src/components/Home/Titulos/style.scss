@@ -1,11 +1,9 @@
 .titulo {
-  font-size: 2rem;
-  text-align: center;
+  font-size: 1.8rem;
   &.separador {
-    position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
+    position: relative;
     &::before {
       position: absolute;
       content: "";

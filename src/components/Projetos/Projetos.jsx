@@ -1,18 +1,26 @@
-import React from 'react'
-import style from './style.module.scss'
-import Section from '../Home/Section/Section'
-import TituloFrase from './TituloFrase/TituloFrase'
-import ProjetosConteiner from './ProjetosConteiner/ProjetosConteiner'
+import React from 'react';
+import style from './style.module.scss';
+import Section from '../Home/Section/Section';
+import TituloFrase from './TituloFrase/TituloFrase';
+import ProjetosConteiner from './ProjetosConteiner/ProjetosConteiner';
+import projetos from '../../json/projetos.json';
+import Projeto from './Projeto/Projeto';
+import CardEmBreve from './ProjetosConteiner/CardEmBreve/CardEmBreve';
 
 const Projetos = () => {
   return (
     <div className={style.projetosConteiner} id="projetosConteiner">
       <Section>
         <TituloFrase />
-        <ProjetosConteiner />
+        <ProjetosConteiner>
+          {projetos.projetosTodos.map((projeto) => {
+            return <Projeto projetos={projeto} key={projeto.titulo} />;
+          })}
+          <CardEmBreve />
+        </ProjetosConteiner>
       </Section>
     </div>
-  )
-}
+  );
+};
 
-export default Projetos
+export default Projetos;

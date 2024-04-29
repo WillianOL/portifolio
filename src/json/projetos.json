@@ -1,30 +1,30 @@
 {
   "destaque": [
     {
-      "titulo": "Parede de Postites",
+      "titulo": "Anotações em postites, adicionar e remover",
       "descricao": "Uma 'parede' de postites, ou uma to do list de postites/cards personalizaveis, ou seja, pode-se mudar a cor e o texto dentro do card e quando uma alteração é feita o card de exemplo da sidebar é modificado em tempo real. Tendo a opção de deletar um card desejado.",
-      "tecnologias": ["React", "Javascript", "Sass"],
-      "banner": "https://i.ibb.co/jRjPPKx/Capa-projeto.png",
+      "tecnologias": ["React", "Javascript", "Sass", "Local-storage"],
+      "banner": "https://i.ibb.co/cC4f8qc/Postite.png",
       "links": {
         "deploy": "https://list-of-notes.vercel.app/",
         "github": "https://github.com/WillianOL/List-of-notes"
       }
     },
     {
-      "titulo": "Carrinho de compras",
+      "titulo": "Loja de sapados com carrinho de itens funcional",
       "descricao": "Essa é uma loja virtual de sapatos inspirada na Adidas, com um carrinho de compras 100% funcional. Nele, pode-se adicionar, remover e mudar o número de itens do carrinho. A cada alteração no número de itens os valores mudam e o valor total do carrinho e atualizado.",
-      "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/2F15PVC/Banner.png",
+      "tecnologias": ["Javascript", "HTML", "CSS", "Local-storage", "Objetos"],
+      "banner": "https://i.ibb.co/84prHkB/Carrinho-de-compras.png",
       "links": {
         "deploy": "https://carrinho-de-compras-6ro9.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/carrinho-de-compras"
       }
     },
     {
-      "titulo": "GalaxyTec",
+      "titulo": "Uma loja de tecnologia inspirada na Dell e Samsung",
       "descricao": "Uma página estática de uma loja de tecnologia fictícia, inspirada nas duas empresas pioneiras na área Dell e Samsung. Com submenus de itens, login e carrinho de compras. Um carrosselcom os principais itens e uma parte de destaque. Contando também com um footer de contato.",
       "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/ssH6wX1/Capa-do-projeto.png",
+      "banner": "https://i.ibb.co/w64680F/Loja-tec.png",
       "links": {
         "deploy": "https://loja-tec-landing-page.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/lojaTec-landingPage"
@@ -33,103 +33,94 @@
   ],
   "projetosTodos": [
     {
-      "titulo": "Parede de Postites",
+      "titulo": "Anotações em postites, adicionar e remover",
       "descricao": "Uma 'parede' de postites, ou uma to do list de postites/cards personalizaveis, ou seja, pode-se mudar a cor e o texto dentro do card e quando uma alteração é feita o card de exemplo da sidebar é modificado em tempo real. Tendo a opção de deletar um card desejado.",
-      "tecnologias": ["React", "Javascript", "Sass"],
-      "banner": "https://i.ibb.co/jRjPPKx/Capa-projeto.png",
+      "tecnologias": ["React", "Javascript", "Sass", "Local-storage"],
+      "banner": "https://i.ibb.co/cC4f8qc/Postite.png",
       "links": {
         "deploy": "https://list-of-notes.vercel.app/",
         "github": "https://github.com/WillianOL/List-of-notes"
-      },
-      "background": "#F7F0FF"
+      }
     },
     {
-      "titulo": "Carrinho de compras",
+      "titulo": "Loja de sapados com carrinho de itens funcional",
       "descricao": "Essa é uma loja virtual de sapatos inspirada na Adidas, com um carrinho de compras 100% funcional. Nele, pode-se adicionar, remover e mudar o número de itens do carrinho. A cada alteração no número de itens os valores mudam e o valor total do carrinho e atualizado.",
-      "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/2F15PVC/Banner.png",
+      "tecnologias": ["Javascript", "HTML", "CSS", "Local-storage", "Objetos"],
+      "banner": "https://i.ibb.co/84prHkB/Carrinho-de-compras.png",
       "links": {
         "deploy": "https://carrinho-de-compras-6ro9.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/carrinho-de-compras"
-      },
-      "background": "#F0FFF7"
+      }
     },
     {
-      "titulo": "GalaxyTec",
+      "titulo": "Uma loja de tecnologia inspirada na Dell e Samsung",
       "descricao": "Uma página estática de uma loja de tecnologia fictícia, inspirada nas duas empresas pioneiras na área Dell e Samsung. Com submenus de itens, login e carrinho de compras. Um carrosselcom os principais itens e uma parte de destaque. Contando também com um footer de contato.",
-      "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/ssH6wX1/Capa-do-projeto.png",
+      "tecnologias": ["Javascript", "HTML", "CSS", "Responsivo"],
+      "banner": "https://i.ibb.co/w64680F/Loja-tec.png",
       "links": {
         "deploy": "https://loja-tec-landing-page.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/lojaTec-landingPage"
-      },
-      "background": "#F0FCFF"
+      }
     },
     {
-      "titulo": "Clone Spotify",
+      "titulo": "Clone do Spotify",
       "descricao": "Trata-se de um clone de uma página do Spotify feito inteiramente com React juntamente com SASS, utilizando meus conhecimentos que tenho até agora 11/01/2024 sobre a biblioteca, que são os componentes, hooks, eventos e estado.",
-      "tecnologias": ["React", "Javascript", "CSS"],
-      "banner": "https://i.ibb.co/9vx1YmM/Banner.png",
+      "tecnologias": ["React", "Javascript", "SASS", "Hooks"],
+      "banner": "https://i.ibb.co/6ryZR1S/Spotify.png",
       "links": {
         "deploy": "https://spotify-clone-zeta-kohl.vercel.app/",
         "github": "https://github.com/WillianOL/spotify-clone"
-      },
-      "background": "#F2FFF0"
+      }
     },
     {
-      "titulo": "Página de cadastro alternável",
+      "titulo": "Página que altera entre login e cadastro",
       "descricao": "A aplicação consiste em uma tela de login e registro que alterna entre elas de acordo com a nescessidade do usuário. A alteração das telas é feita pelos botões localizados no topo da página, que são 'LOGIN' e 'SIGN UP'.",
       "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/fvFfpKV/Banner.png",
+      "banner": "https://i.ibb.co/nz5yXQB/Login-altern-vel.png",
       "links": {
         "deploy": "https://login-e-registro-alternavel.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/Login-e-registro-alternavel"
-      },
-      "background": "#F0FFFB"
+      }
     },
     {
-      "titulo": "Previsão do tempo",
-      "descricao": "A aplicação consiste em um APP que prevê o clima em qualquer cidade do mundo, exibindo a humidade, velocidade dos ventos, temperatura e bandeira de onde a cidade pertence. Ao depender do tempo, é exibido um vídeo de fundo deixando o resultado bem mais interessante.",
-      "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/TYhtMm0/Post-page.png",
+      "titulo": "Aplicação fornece dados sobre o tempo",
+      "descricao": "A aplicação consiste em um APP que fornece dados sobre o clima em qualquer cidade do mundo, exibindo a humidade, velocidade dos ventos, temperatura e bandeira de onde a cidade pertence. Ao depender do tempo, é exibido um vídeo de fundo deixando o resultado bem mais interessante. Consumindo os dados da API Open Weather Map",
+      "tecnologias": ["Javascript", "HTML", "CSS", "API", "Open Weather Map"],
+      "banner": "https://i.ibb.co/Sfh01xq/App-clima.png",
       "links": {
         "deploy": "https://app-do-clima.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/APP-do-clima"
-      },
-      "background": "#F8F0FF"
+      }
     },
     {
-      "titulo": "Quiz JavaScript",
+      "titulo": "Quiz sobre Javascript com efeitos sonoros",
       "descricao": "Quiz feito com JavaScript, com perguntas sobre JavaScript. As páginas não recarregam, sou seja, não é feito o reloading. As perguntas são pegas de um arquivo JSON. Dependendo da resposta do usuário, é emitido um som de certo ou errado",
-      "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/z58yTdJ/projeto-Quiz-Javascript.png",
+      "tecnologias": ["Javascript", "HTML", "CSS", "Arquivo JSON"],
+      "banner": "https://i.ibb.co/rbfVzN8/Quiz.png",
       "links": {
         "deploy": "https://quiz-javascript-indol.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/Quiz-Javascript"
-      },
-      "background": "#E2F6FA"
+      }
     },
     {
-      "titulo": "Estilizador de botões CSS",
+      "titulo": "Estilizador de botões que fornece os estilos",
       "descricao": "Um estilizador de botões CSS feito com JavaScript, enquanto as alterações são feitas, é retornado todas elas em forma de código CSS.",
-      "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/PYgMNSQ/Constructor-Perfil.png",
+      "tecnologias": ["Javascript", "HTML", "CSS", "Responsivo"],
+      "banner": "https://i.ibb.co/5vnrQKD/Button-style.png",
       "links": {
         "deploy": "https://criador-de-botao.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/Criador-de-Botao"
-      },
-      "background": "#E3F2FF"
+      }
     },
     {
-      "titulo": "To-do List",
+      "titulo": "To Do List com adicionar e remover",
       "descricao": "Aplicação de to do list, onde pode-se criar ou remover as tarefas(anotações). Neste porjeto, foi trabalhado lógica de programação, validação de dados, manipulação de arrays, manipulação do DOM e uso do atributo 'data-'.",
       "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/wLgwmfV/Banner-to-do-list.png",
+      "banner": "https://i.ibb.co/XYmFVxM/To-do-list.png",
       "links": {
         "deploy": "https://to-do-list-two.vercel.app/assets/index.html",
         "github": "https://github.com/WillianOL/To-Do-List"
-      },
-      "background": "#E3EEFF"
+      }
     }
   ]
 }

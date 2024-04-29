@@ -10,10 +10,10 @@
 
 :root {
   --fontePrincipal: 'Poppins', Arial, sans-serif;
-  --borderRadius: 20px;
-  --corDestaque: #f95252;
-  --branco: #ffffff;
-  --conteinerFundo: #f5f5f596;
+  --borderRadius: 5px;
+  --corDestaque: #608ff3;
+  --branco: #fafafa;
+  --conteinerFundo: #f9f9f9;
   --corTexto: #333333;
   --preto: #1e1e1e;
   --projeto01: #f7f0ff;
@@ -23,7 +23,7 @@
 
 section,
 footer {
-  padding: 0px 70px;
+  padding: 0px 57px;
 }
 
 section {
@@ -47,6 +47,7 @@ li {
 
 body {
   padding-top: 130px;
+  background-color: var(--conteinerFundo);
   @media (max-width:768px) {
     padding-top: 20px;
   }

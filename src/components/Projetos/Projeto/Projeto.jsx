@@ -1,13 +1,13 @@
 import React from 'react';
 import style from './Projeto.module.scss';
-import SubTitulo from '../../../Titulos/SubTitulo/SubTitulo';
-import ButtonLink from '../../../ButtonLink/ButtonLink';
+import SubTitulo from '../../Home/Titulos/SubTitulo/SubTitulo';
+import ButtonLink from '../../Home/ButtonLink/ButtonLink';
 
 const Projeto = ({
-  projetos: { titulo, descricao, tecnologias, banner, links, background="" },
+  projetos: { titulo, descricao, tecnologias, banner, links },
 }) => {
   return (
-    <div className={style.projeto} style={{backgroundColor:background}}>
+    <div className={style.projeto}>
       <div className={style.informacoes}>
         <SubTitulo>{titulo}</SubTitulo>
         <p>{descricao}</p>
@@ -17,13 +17,17 @@ const Projeto = ({
           ))}
         </ul>
         <nav className={style.buttons}>
-          <ButtonLink caminho={links.deploy} target="_blanck">Ver projeto</ButtonLink>
-          <ButtonLink caminho={links.github} target="_blanck">Github</ButtonLink>
+          <ButtonLink caminho={links.deploy} target="_blanck">
+            Ver projeto
+          </ButtonLink>
+          <ButtonLink caminho={links.github} target="_blanck">
+            Github
+          </ButtonLink>
         </nav>
       </div>
-      <div className={style.imgConteiner}>
+      <article className={style.imgConteiner}>
         <img src={banner} alt={titulo} />
-      </div>
+      </article>
     </div>
   );
 };

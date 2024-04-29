@@ -1,0 +1,119 @@
+.projeto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  min-height: 450px;
+  padding: 90px 0px;
+  // Alternar a posição das imagens e das informações a cada 1 projetos
+  &:nth-child(2n) {
+    flex-direction: row-reverse;
+    .informacoes {
+      p,
+      h2,
+      .tecnologias,
+      .buttons {
+        align-self: flex-start;
+        text-align: left;
+      }
+    }
+  }
+  .informacoes {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: baseline;
+    z-index: 500;
+    p,
+    h2,
+    .tecnologias,
+    .buttons {
+      align-self: flex-end;
+      text-align: right;
+    }
+    p {
+      font-weight: 400;
+      font-size: 0.95rem;
+      margin-bottom: 30px;
+    }
+    .tecnologias {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      z-index: 500;
+      width: fit-content;
+      margin-bottom: 35px;
+      li {
+        font-size: 0.85rem;
+        color: var(--corTexto);
+        font-weight: 300;
+        padding: 5px 15px;
+        border: 1px solid var(--corTexto);
+        border-radius: 5px;
+      }
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+      a {
+        font-size: 1.2rem;
+        background-color: var(--corDestaque);
+        padding: 10px 20px;
+        border-radius: var(--borderRadius);
+        color: var(--branco);
+        text-decoration: none;
+        border: 1px solid transparent;
+        transition: all 0.1s ease;
+        &:last-child {
+          background-color: transparent;
+          color: var(--corDestaque);
+          border-color: var(--corDestaque);
+          &:hover {
+            color: var(--branco);
+          }
+        }
+        &:hover {
+          background-color: var(--corTexto);
+          border-color: var(--branco);
+        }
+      }
+    }
+  }
+  .imgConteiner {
+    img {
+      border-radius: var(--borderRadius);
+      z-index: 500;
+      position: relative;
+      max-width: 1200px;
+    }
+  }
+  @media (max-width: 1024px) {
+    flex-direction: column-reverse !important;
+    .informacoes {
+      p,
+      h2,
+      .tecnologias,
+      .buttons {
+        align-self: center !important;
+        text-align: center !important;
+      }
+    }
+    .imgConteiner {
+      img {
+        max-width: 450px;
+      }
+    }
+    .informacoes {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
