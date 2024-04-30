@@ -3,20 +3,24 @@
   flex-direction: column;
   color: var(--corTexto);
   .comando {
+    font-family: var(--fonteCodigo);
     font-size: 1.3rem;
     font-weight: bold;
     span {
+      font-family: var(--fonteCodigo);
       color: var(--corDestaque);
     }
   }
   .nome {
-    font-size: 3.2rem;
+    font-size: 3rem;
     letter-spacing: 2px;
   }
   .profissao {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 400;
+    font-family: var(--fonteCodigo);
     span {
+      font-family: var(--fonteCodigo);
       color: var(--corDestaque);
     }
   }
@@ -25,26 +29,28 @@
     margin-top: 20px;
     font-size: 0.9rem;
     max-width: 600px;
-    span {
-      color: var(--corDestaque);
-    }
   }
   .buttons {
     display: flex;
     gap: 30px;
-    margin-top: 55px;
+    margin-top: 23px;
     a {
+      background-color: var(--corDestaque);
       &:hover {
-        background-color: var(--corDestaque) !important;
+        background-color: var(--corTexto) !important;
       }
       &:nth-child(2) {
         display: flex;
         align-items: center;
+        font-size: 1.3rem;
         gap: 10px;
-        border-color: var(--corTexto);
+        color: var(--corDestaque) !important;
+        background-color: transparent !important;
+        border: 1px solid;
         &:hover {
           color: var(--branco) !important;
-          border-color: var(--branco) !important;
+          background-color: var(--corTexto) !important;
+          border-color: var(--corTexto) !important;
         }
       }
     }

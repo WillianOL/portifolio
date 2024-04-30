@@ -1,11 +1,16 @@
 .conteiner {
   display: flex;
   align-items: center;
+  font-size: 1.1rem;
   gap: 8px;
+  font-family: var(--fonteCodigo);
   color: var(--corTexto);
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 500;
+  transition: all .2s linear;
+  &:hover {
+    color: var(--corDestaque);
+  }
   @media (max-width:768px) {
     display: none;
   }

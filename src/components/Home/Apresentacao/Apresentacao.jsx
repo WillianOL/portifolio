@@ -2,14 +2,18 @@ import React from 'react'
 import Section from '../Section/Section'
 import style from './style.module.scss'
 import Conteudo from './Conteudo/Conteudo'
-import desenhoBanner from '../../../img/section/foto_perfil.png'
+import imagemApresentacao from '../../../img/section/imagem_apresentacao.png'
+import Tecnologias from './Tecnologias/Tecnologias'
 
 const Apresentacao = () => {
   return (
     <Section>
       <div className={style.apresentacao}>
-        <Conteudo />
-        <img src={desenhoBanner} alt="desenho de perfil do banner" />
+        <div className={style.textoEImagem}>
+          <Conteudo />
+          <img src={imagemApresentacao} alt="desenho de perfil do banner" />
+        </div>
+        <Tecnologias />
       </div>
     </Section>
   )

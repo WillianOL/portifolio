@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 import ButtonLink from '../../ButtonLink/ButtonLink';
-import { FaCloudDownloadAlt } from 'react-icons/fa';
+import { RiFilePaper2Fill } from "react-icons/ri";
 
 const Conteudo = () => {
   return (
@@ -17,22 +17,20 @@ const Conteudo = () => {
       <p className={style.texto}>
         Seja bem-vindo ao meu portfólio! Sou um desenvolvedor web apaixonado por
         criar aplicações criativas. Estou sempre em busca de soluções inovadoras
-        para resolver os mais diversos desafios. Explore meu trabalho e{' '}
-        <span>
-          descubra como transformo linhas de código em experiências incríveis.
-        </span>
+        para resolver os mais diversos desafios. Explore meu trabalho e descubra
+        como transformo linhas de código em experiências incríveis.
       </p>
       <div className={style.buttons}>
-        <ButtonLink caminho={'contato'} NavLink={true} fundo={'#333333'}>
-          Contato
+        <ButtonLink caminho={'contato'} NavLink={true}>
+          Converse comigo
         </ButtonLink>
         <ButtonLink
-          fundo={'#FFF'}
-          cor={'#333333'}
-          caminho={"https://drive.google.com/file/d/1aoImCVqxpEAmvlb1qGzlOl5yx4SNWlP1/view?usp=sharing"}
+          caminho={
+            'https://drive.google.com/file/d/1aoImCVqxpEAmvlb1qGzlOl5yx4SNWlP1/view?usp=sharing'
+          }
           target="_blanck"
         >
-          Currículo <FaCloudDownloadAlt />
+          <RiFilePaper2Fill />
         </ButtonLink>
       </div>
     </div>
