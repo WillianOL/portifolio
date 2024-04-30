@@ -9,7 +9,7 @@ const Sobre = () => {
   return (
     <Section>
       <div className={style.conteiner}>
-        <Titulo>Eu, dev Willian Oliveira</Titulo>
+        <Titulo>Um pouco sobre mim</Titulo>
         <div className={style.conteudo}>
           <Text />
           <Ferramentas />

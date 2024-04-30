@@ -2,7 +2,7 @@ import React from 'react';
 import SubTitulo from '../../../Titulos/SubTitulo/SubTitulo';
 import { FaSass, FaReact } from 'react-icons/fa';
 import { RiJavascriptFill } from 'react-icons/ri';
-import style from './style.module.scss'
+import style from './style.module.scss';
 
 const Principais = () => {
   const linguagens = [<FaReact />, <RiJavascriptFill />, <FaSass />];
@@ -12,7 +12,9 @@ const Principais = () => {
         {'<'}Ferramentas<span>.afinidade</span> {'/>'}
       </SubTitulo>
       <ul className={style.linguagens}>
-        {linguagens.map((linguagem) => <li>{linguagem}</li>)}
+        {linguagens.map((linguagem, index) => (
+          <li key={index}>{linguagem}</li>
+        ))}
       </ul>
     </div>
   );

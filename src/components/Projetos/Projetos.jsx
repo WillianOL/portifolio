@@ -8,8 +8,12 @@ import Projeto from './Projeto/Projeto';
 import CardEmBreve from './ProjetosConteiner/CardEmBreve/CardEmBreve';
 
 const Projetos = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
-    <div className={style.projetosConteiner} id="projetosConteiner">
+    <div className={style.projetosConteiner}>
       <Section>
         <TituloFrase />
         <ProjetosConteiner>

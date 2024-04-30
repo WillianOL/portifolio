@@ -11,7 +11,7 @@
       }
     },
     {
-      "titulo": "Loja de sapados com carrinho de itens funcional",
+      "titulo": "Loja de sapatos com carrinho de itens funcional",
       "descricao": "Essa é uma loja virtual de sapatos inspirada na Adidas, com um carrinho de compras 100% funcional. Nele, pode-se adicionar, remover e mudar o número de itens do carrinho. A cada alteração no número de itens os valores mudam e o valor total do carrinho e atualizado.",
       "tecnologias": ["Javascript", "HTML", "CSS", "Local-storage", "Objetos"],
       "banner": "https://i.ibb.co/84prHkB/Carrinho-de-compras.png",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "titulo": "Loja de sapados com carrinho de itens funcional",
+      "titulo": "Loja de sapatos com carrinho de itens funcional",
       "descricao": "Essa é uma loja virtual de sapatos inspirada na Adidas, com um carrinho de compras 100% funcional. Nele, pode-se adicionar, remover e mudar o número de itens do carrinho. A cada alteração no número de itens os valores mudam e o valor total do carrinho e atualizado.",
       "tecnologias": ["Javascript", "HTML", "CSS", "Local-storage", "Objetos"],
       "banner": "https://i.ibb.co/84prHkB/Carrinho-de-compras.png",
