@@ -44,7 +44,7 @@ const Form = () => {
       <div className={style.campos}>
         <Input label="Seu Nome" {...nome} />
         <Input label="Email" tipo="email" {...email} />
-        <Input label="Mensagem" {...mensagem} textarea={true} />
+        <Input label="O que deseja? Me conta um pouco." {...mensagem} textarea={true} />
         <MensagemEnviado sendSecess={sendSucess} setSendSucess={setSendSucess} />
       </div>
       <div className={style.botaoEEmail}>

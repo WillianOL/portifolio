@@ -1,9 +1,0 @@
-.conteiner {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  @media (max-width: 1024px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}

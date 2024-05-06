@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 import ButtonLink from '../../ButtonLink/ButtonLink';
-import { RiFilePaper2Fill } from "react-icons/ri";
+import { RiFilePaper2Fill } from 'react-icons/ri';
 
 const Conteudo = () => {
   return (
@@ -15,10 +15,8 @@ const Conteudo = () => {
         <span>Desenvolvedor.web</span> {'/>'}
       </h2>
       <p className={style.texto}>
-        Seja bem-vindo ao meu portfólio! Sou um desenvolvedor web apaixonado por
-        criar aplicações criativas. Estou sempre em busca de soluções inovadoras
-        para resolver os mais diversos desafios. Explore meu trabalho e descubra
-        como transformo linhas de código em experiências incríveis.
+        Sempre me dedicando a aprimorar meus conhecimentos em programação. Em busca de soluções inovadoras para resolver os mais diversos
+        desafios e problemas. Meu objetivo é se tornar um desenvolvedor Full Stack de muito valor.
       </p>
       <div className={style.buttons}>
         <ButtonLink caminho={'contato'} NavLink={true}>
