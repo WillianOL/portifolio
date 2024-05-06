@@ -3,6 +3,7 @@ import Section from '../Section/Section';
 import Titulo from '../Titulos/Titulo';
 import style from './style.module.scss';
 import Tecnologias from './Tecnologias/Tecnologias';
+import Experiencias from './Experiencias/Experiencias';
 
 const Sobre = () => {
   return (
@@ -15,6 +16,7 @@ const Sobre = () => {
           então, tenho me dedicado diariamente a aprimorar minhas habilidades.
         </p>
         <Tecnologias />
+        <Experiencias />
       </div>
     </Section>
   );

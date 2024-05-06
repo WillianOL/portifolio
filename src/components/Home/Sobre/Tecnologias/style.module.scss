@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 120px;
   width: 100%;
   position: relative;
   &::before {
@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    z-index: 1000;
+    z-index: 900;
     gap: 80px;
     .tecnologias {
       display: flex;
@@ -41,6 +41,9 @@
         font-size: .9rem;
         color: #9F9F9F;
       }
+    }
+    @media (max-width: 830px) {
+      gap: 30px;
     }
   }
 }
