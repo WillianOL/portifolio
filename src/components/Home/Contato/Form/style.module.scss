@@ -17,9 +17,9 @@
       flex-direction: column;
       gap: 7px;
       color: var(--branco);
-      font-size: 1.15rem;
+      font-size: 1.1rem;
       width: 100%;
-      font-weight: 400;
+      font-weight: 300;
       position: relative;
       input,
       textarea {
@@ -42,14 +42,13 @@
       }
     }
   }
-  .botaoEEmail {
+  .botoes {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     button {
       padding: 15px 20px;
-      font-size: 1.15rem;
+      font-size: 1rem;
       border-radius: var(--borderRadius);
       background-color: var(--corDestaque);
       color: var(--branco);
@@ -66,12 +65,19 @@
         }
       }
     }
-    p {
-      font-size: 1rem;
-      font-weight: 300;
-      color: var(--branco);
+    a {
       display: flex;
-      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: fit-content;
+      font-size: 1rem;
+      background-color: var(--branco);
+      color: var(--corTexto);
+      &:hover {
+        background-color: var(--preto);
+        color: var(--branco);
+      }
     }
   }
 

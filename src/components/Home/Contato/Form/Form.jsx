@@ -4,13 +4,15 @@ import style from './style.module.scss';
 import emailJS from '@emailjs/browser';
 import useForm from '../../../../hooks/useForm';
 import MensagemEnviado from './MensagemEnviado.jsx/MensagemEnviado';
+import ButtonLink from '../../ButtonLink/ButtonLink';
+import { SiWhatsapp } from 'react-icons/si';
 
 const Form = () => {
   const email = useForm('email');
   const nome = useForm();
   const mensagem = useForm();
-  const [sendSucess, setSendSucess] = React.useState(false)
-  const [loading, setLoading] = React.useState(false)
+  const [sendSucess, setSendSucess] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
 
   const key = 'XXdq-rUWujevjsbPD';
   const serviceId = 'service_1qd9zhx';
@@ -20,7 +22,7 @@ const Form = () => {
     event.preventDefault();
     if (!email.valor || !nome.valor || !mensagem.valor) {
       nome.setError('Preencha com um valor');
-      nome.campo.current.focus()
+      nome.campo.current.focus();
       return;
     }
 
@@ -29,13 +31,13 @@ const Form = () => {
       message: mensagem.valor,
       email: email.valor,
     };
-    setLoading(true)
+    setLoading(true);
     emailJS.send(serviceId, templateId, templateParams, key).then((res) => {
       nome.setValor('');
       email.setValor('');
       mensagem.setValor('');
-      setSendSucess(true)
-      setLoading(false)
+      setSendSucess(true);
+      setLoading(false);
     });
   }
 
@@ -44,17 +46,25 @@ const Form = () => {
       <div className={style.campos}>
         <Input label="Seu Nome" {...nome} />
         <Input label="Email" tipo="email" {...email} />
-        <Input label="O que deseja? Me conta um pouco." {...mensagem} textarea={true} />
-        <MensagemEnviado sendSecess={sendSucess} setSendSucess={setSendSucess} />
+        <Input
+          label="O que deseja? Me conta um pouco."
+          {...mensagem}
+          textarea={true}
+        />
+        <MensagemEnviado
+          sendSecess={sendSucess}
+          setSendSucess={setSendSucess}
+        />
       </div>
-      <div className={style.botaoEEmail}>
+      <div className={style.botoes}>
         <button disabled={loading}>Enviar email</button>
-        <p>
-          Ou me contate diretamente em{' '}
-          <a href="mailto:williancontato67@gmail.com" className="link">
-            williancontato67@gmail.com
-          </a>
-        </p>
+        <ButtonLink
+          caminho="https://api.whatsapp.com/send?phone=5582994334960"
+          target="_blanck"
+        >
+          Me contate diretamente
+          <SiWhatsapp />
+        </ButtonLink>
       </div>
     </form>
   );
