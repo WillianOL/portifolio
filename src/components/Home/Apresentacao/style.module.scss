@@ -1,11 +1,12 @@
 .apresentacao {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 50px;
-  min-height: 80vh;
+  min-height: 90vh;
   padding: 50px 0px 0px 0px;
   img {
-    width: 35vw;
+    width: 37vw;
     max-width: 700px !important;
     min-width: 200px;
   }

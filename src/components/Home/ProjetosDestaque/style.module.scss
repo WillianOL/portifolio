@@ -6,6 +6,7 @@
     margin-top: 28px;
     text-align: center;
     font-size: 1rem;
+    color: var(--corTexto);
   }
   & > a {
     &:last-child {
@@ -16,7 +17,8 @@
       border: 1px solid var(--corDestaque);
       font-weight: 300;
       &:hover {
-        background-color: var(--corDestaque);
+        background-color: var(--preto);
+        border-color: var(--preto);
         color: var(--branco);
       }
     }

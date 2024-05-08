@@ -9,6 +9,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     max-width: 1000px;
+    color: #fff;
     span {
       color: var(--corDestaque);
     }
@@ -28,6 +29,6 @@
   @media (max-width: 1024px) {
     p {
       font-size: 1.4rem;
-    } 
+    }
   }
 }

@@ -1,9 +1,9 @@
 .sectionConteiner {
-  background-color: white;
+  background-color: var(--branco);
   width: 95vw;
   max-width: 1600px;
   overflow: hidden;
-  border: 1px solid #EFEFEF;
+  border: 1px solid var(--corHeader);
   border-radius: 20px;
   margin: 0 auto;
   position: relative;

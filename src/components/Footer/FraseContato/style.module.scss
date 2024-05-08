@@ -7,21 +7,21 @@
   background-color: var(--corDestaque);
   padding: 24px 41px;
   border-radius: var(--borderRadius);
-  color: var(--branco);
+  color: #F6F6F6;
   font-weight: 400;
   gap: 23px;
   .frase {
     max-width: 600px;
   }
   .button {
-    background-color: var(--branco);
+    background-color: #F6F6F6;
     text-decoration: none;
     color: var(--corDestaque);
     padding: 10px 20px;
     border-radius: var(--borderRadius);
     transition: all .2s ease;
     &:hover {
-      background-color: var(--corTexto);
+      background-color: #1e1e1e;
     }
   }
   @media (max-width:768px) {

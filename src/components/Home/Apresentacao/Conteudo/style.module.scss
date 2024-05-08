@@ -30,6 +30,7 @@
     margin-top: 20px;
     font-size: 0.9rem;
     max-width: 600px;
+    margin-bottom: 20px;
   }
   .buttons {
     display: flex;
@@ -38,7 +39,7 @@
     a {
       background-color: var(--corDestaque);
       &:hover {
-        background-color: var(--corTexto) !important;
+        background-color: var(--preto) !important;
       }
       &:nth-child(2) {
         display: flex;

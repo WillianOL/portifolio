@@ -62,7 +62,7 @@ const Form = () => {
           caminho="https://api.whatsapp.com/send?phone=5582994334960"
           target="_blanck"
         >
-          Me contate diretamente
+          Diretamente
           <SiWhatsapp />
         </ButtonLink>
       </div>

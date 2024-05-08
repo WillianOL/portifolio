@@ -13,7 +13,6 @@ const Apresentacao = () => {
           <Conteudo />
           <img src={imagemApresentacao} alt="desenho de perfil do banner" />
         </div>
-        <Tecnologias />
       </div>
     </Section>
   )

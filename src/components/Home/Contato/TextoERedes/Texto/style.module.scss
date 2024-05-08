@@ -5,7 +5,7 @@
   .titulo {
     font-size: 1.8rem;
     text-transform: uppercase;
-    color: var(--branco);
+    color: #fafafa;
     position: relative;
     font-weight: 700;
     &::before {
@@ -19,7 +19,7 @@
     }
   }
   .texto {
-    color: var(--branco);
+    color: #DFDFDF;
     max-width: 500px;
     font-size: 1rem;
     span {

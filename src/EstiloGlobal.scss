@@ -15,9 +15,24 @@
   --borderRadius: 5px;
   --corDestaque: #608ff3;
   --branco: #fafafa;
-  --conteinerFundo: #f9f9f9;
+  --conteinerFundo: #f1f1f1;
+  --corHeader: rgba(255, 255, 255, 0.425);
   --corTexto: #333333;
   --preto: #1e1e1e;
+  --fundoFooter: #272727;
+}
+
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    --corDestaque: #608ff3;
+    --branco: #1E1E1E;
+    --conteinerFundo: #212121;
+    --corTexto: #DFDFDF;
+    --corHeader: rgba(26, 26, 26, 0.87);
+    --preto: #F6F6F6;
+    --fundoFooter: #1e1e1e;
+  }
 }
 
 section,

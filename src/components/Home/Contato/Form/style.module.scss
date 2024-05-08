@@ -16,7 +16,7 @@
       display: flex;
       flex-direction: column;
       gap: 7px;
-      color: var(--branco);
+      color: #fafafa;
       font-size: 1.1rem;
       width: 100%;
       font-weight: 300;
@@ -29,7 +29,7 @@
         background-color: rgba(255, 255, 255, 0.35);
         padding: 5px 10px;
         font-size: 1rem;
-        color: var(--branco);
+        color: #fafafa;
         font-weight: 300;
         &:focus {
           outline: 0.5px solid var(--corDestaque);
@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     button {
       padding: 15px 20px;
       font-size: 1rem;
