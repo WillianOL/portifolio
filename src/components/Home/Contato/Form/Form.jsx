@@ -14,9 +14,9 @@ const Form = () => {
   const [sendSucess, setSendSucess] = React.useState(false);
   const [loading, setLoading] = React.useState(false);
 
-  const key = 'XXdq-rUWujevjsbPD';
-  const serviceId = 'service_1qd9zhx';
-  const templateId = 'template_hwa2ouh';
+  const key = 'DgSz6A3R6DPEM2YZY';
+  const serviceId = 'service_2frgq7b';
+  const templateId = 'template_6ab212k';
 
   function enviarEmail(event) {
     event.preventDefault();
