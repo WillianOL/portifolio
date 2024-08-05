@@ -1,6 +1,18 @@
 {
   "destaque": [
     {
+      "id": 1,
+      "titulo": "Um catálogo online de filmes e séries",
+      "descricao": "Esse é um catálogo de filmes e séries que consome os dados da API The Movie Database, com informações, notas, pesquisa, funcionalidade de adicionar favoritos, filtragem e mais. Tudo isso feito com React e navegação reativa.",
+      "tecnologias": ["React", "Javascript", "SASS", "API REST", "React Routers", "Local-storage"],
+      "banner": "https://i.ibb.co/gW9KWbh/Group-30.png",
+      "links": {
+        "deploy": "https://tv-filmes.vercel.app/",
+        "github": "https://github.com/WillianOL/TVFilmes"
+      }
+    },
+    {
+      "id": 2,
       "titulo": "Anotações em postites, adicionar e remover",
       "descricao": "Uma ‘parede’ de post-its, ou uma lista de tarefas com post-its/cards personalizáveis. Ou seja, pode-se mudar a cor e o texto dentro do card. Quando uma alteração é feita, o card de exemplo da barra lateral é modificado em tempo real. Além disso, existe a opção de deletar um card desejado.",
       "tecnologias": ["React", "Javascript", "Sass", "Local-storage"],
@@ -11,16 +23,7 @@
       }
     },
     {
-      "titulo": "Loja de sapatos com carrinho de itens funcional",
-      "descricao": "Essa é uma loja virtual de sapatos inspirada na Adidas, com um carrinho de compras 100% funcional. Nele, pode-se adicionar, remover e mudar o número de itens do carrinho. A cada alteração no número de itens, os valores mudam e o valor total do carrinho é atualizado.",
-      "tecnologias": ["Javascript", "HTML", "CSS", "Local-storage", "Objetos"],
-      "banner": "https://i.ibb.co/84prHkB/Carrinho-de-compras.png",
-      "links": {
-        "deploy": "https://carrinho-de-compras-6ro9.vercel.app/assets/index.html",
-        "github": "https://github.com/WillianOL/carrinho-de-compras"
-      }
-    },
-    {
+      "id": 3,
       "titulo": "Uma loja de tecnologia inspirada na Dell e Samsung",
       "descricao": "Uma página estática de uma loja de tecnologia fictícia, inspirada nas duas empresas pioneiras na área Dell e Samsung. Com submenus de itens, login e carrinho de compras. Um carrossel com os principais itens e uma parte de destaque. Contando também com um footer de contato.",
       "tecnologias": ["Javascript", "HTML", "CSS"],
@@ -33,6 +36,7 @@
   ],
   "projetosTodos": [
     {
+      "id": 1,
       "titulo": "Anotações em postites, adicionar e remover",
       "descricao": "Uma 'parede' de post-its, ou uma lista de tarefas com post-its/cards personalizáveis. Ou seja, pode-se mudar a cor e o texto dentro do card. Quando uma alteração é feita, o card de exemplo da barra lateral é modificado em tempo real. Além disso, existe a opção de deletar um card desejado.",
       "tecnologias": ["React", "Javascript", "Sass", "Local-storage"],
@@ -43,6 +47,7 @@
       }
     },
     {
+      "id": 2,
       "titulo": "Loja de sapatos com carrinho de itens funcional",
       "descricao": "Essa é uma loja virtual de sapatos inspirada na Adidas, com um carrinho de compras 100% funcional. Nele, pode-se adicionar, remover e mudar o número de itens do carrinho. A cada alteração no número de itens, os valores mudam e o valor total do carrinho é atualizado.",
       "tecnologias": ["Javascript", "HTML", "CSS", "Local-storage", "Objetos"],
@@ -53,6 +58,7 @@
       }
     },
     {
+      "id": 3,
       "titulo": "Uma loja de tecnologia inspirada na Dell e Samsung",
       "descricao": "Uma página estática de uma loja de tecnologia fictícia, inspirada nas duas empresas pioneiras na área Dell e Samsung. Com submenus de itens, login e carrinho de compras. Um carrossel com os principais itens e uma parte de destaque. Contando também com um footer de contato.",
       "tecnologias": ["Javascript", "HTML", "CSS", "Responsivo"],
@@ -63,6 +69,7 @@
       }
     },
     {
+      "id": 4,
       "titulo": "Clone do Spotify",
       "descricao": "Trata-se de um clone de uma página do Spotify, feito inteiramente com React e SASS. Até a data de 11/01/2024, utilizei meus conhecimentos sobre a biblioteca, que incluem componentes, hooks, eventos e estado.",
       "tecnologias": ["React", "Javascript", "SASS", "Hooks"],
@@ -73,6 +80,7 @@
       }
     },
     {
+      "id": 5,
       "titulo": "Página que altera entre login e cadastro",
       "descricao": "A aplicação consiste em uma tela de login e registro que alterna entre elas de acordo com a necessidade do usuário. A alteração das telas é feita pelos botões localizados no topo da página, que são 'LOGIN' e 'SIGN UP'.",
       "tecnologias": ["Javascript", "HTML", "CSS"],
@@ -83,6 +91,7 @@
       }
     },
     {
+      "id": 6,
       "titulo": "Aplicação fornece dados sobre o tempo",
       "descricao": "A aplicação consiste em um APP que fornece dados sobre o clima de qualquer cidade do mundo, exibindo a umidade, velocidade dos ventos, temperatura e a bandeira do país ao qual a cidade pertence. Dependendo do tempo, é exibido um vídeo de fundo, tornando o resultado mais interessante. Os dados são consumidos da API Open Weather Map.",
       "tecnologias": ["Javascript", "HTML", "CSS", "API", "Open Weather Map"],
@@ -93,6 +102,7 @@
       }
     },
     {
+      "id": 7,
       "titulo": "Quiz sobre Javascript com efeitos sonoros",
       "descricao": "Quiz feito com JavaScript, com perguntas sobre JavaScript. As páginas não recarregam, ou seja, não é feito o reloading. As perguntas são pegas de um arquivo JSON. Dependendo da resposta do usuário, é emitido um som de certo ou errado.",
       "tecnologias": ["Javascript", "HTML", "CSS", "Arquivo JSON"],
@@ -103,6 +113,7 @@
       }
     },
     {
+      "id": 8,
       "titulo": "Estilizador de botões que fornece os estilos",
       "descricao": "Um estilizador de botões CSS feito com JavaScript. Enquanto as alterações são feitas, são retornadas todas elas em forma de código CSS.",
       "tecnologias": ["Javascript", "HTML", "CSS", "Responsivo"],
@@ -113,6 +124,7 @@
       }
     },
     {
+      "id": 9,
       "titulo": "To Do List com adicionar e remover",
       "descricao": "Aplicação de to do list, onde pode-se criar ou remover as tarefas(anotações). Neste projeto, foi trabalhado lógica de programação, validação de dados, manipulação de arrays, manipulação do DOM e uso do atributo 'data-'.",
       "tecnologias": ["Javascript", "HTML", "CSS"],
