@@ -36,6 +36,17 @@
   ],
   "projetosTodos": [
     {
+      "id": 9,
+      "titulo": "Um catálogo online de filmes e séries",
+      "descricao": "Esse é um catálogo de filmes e séries que consome os dados da API The Movie Database, com informações, notas, pesquisa, funcionalidade de adicionar favoritos, filtragem e mais. Tudo isso feito com React e navegação reativa.",
+      "tecnologias": ["React", "Javascript", "SASS", "API REST", "React Routers", "Local-storage"],
+      "banner": "https://i.ibb.co/gW9KWbh/Group-30.png",
+      "links": {
+        "deploy": "https://tv-filmes.vercel.app/",
+        "github": "https://github.com/WillianOL/TVFilmes"
+      }
+    },
+    {
       "id": 1,
       "titulo": "Anotações em postites, adicionar e remover",
       "descricao": "Uma 'parede' de post-its, ou uma lista de tarefas com post-its/cards personalizáveis. Ou seja, pode-se mudar a cor e o texto dentro do card. Quando uma alteração é feita, o card de exemplo da barra lateral é modificado em tempo real. Além disso, existe a opção de deletar um card desejado.",
