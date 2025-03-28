@@ -2,6 +2,17 @@
   "destaque": [
     {
       "id": 1,
+      "titulo": "Cadastro de empregados",
+      "descricao": "Este é um sistema de cadastro de empregados desenvolvido em React, que permite gerenciar uma lista de empregados por meio de funcionalidades como adição, atualização e exclusão. A aplicação utiliza uma API REST para interagir com o backend.",
+      "tecnologias": ["React", "Typescript", "NODE","DOCKER", "PRISMA", "API REST", "SASS"],
+      "banner": "https://i.ibb.co/wNpvqwfg/Group-30.png",
+      "links": {
+        "deploy": "https://cadastro-empregados.vercel.app/",
+        "github": "https://github.com/WillianOL/cadastroEmpregados"
+      }
+    },
+    {
+      "id": 2,
       "titulo": "Um catálogo online de filmes e séries",
       "descricao": "Esse é um catálogo de filmes e séries que consome os dados da API The Movie Database, com informações, notas, pesquisa, funcionalidade de adicionar favoritos, filtragem e mais. Tudo isso feito com React e navegação reativa.",
       "tecnologias": ["React", "Javascript", "SASS", "API REST", "React Routers", "Local-storage"],
@@ -12,7 +23,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "titulo": "Anotações em postites, adicionar e remover",
       "descricao": "Uma ‘parede’ de post-its, ou uma lista de tarefas com post-its/cards personalizáveis. Ou seja, pode-se mudar a cor e o texto dentro do card. Quando uma alteração é feita, o card de exemplo da barra lateral é modificado em tempo real. Além disso, existe a opção de deletar um card desejado.",
       "tecnologias": ["React", "Javascript", "Sass", "Local-storage"],
@@ -21,20 +32,20 @@
         "deploy": "https://list-of-notes.vercel.app/",
         "github": "https://github.com/WillianOL/List-of-notes"
       }
-    },
-    {
-      "id": 3,
-      "titulo": "Uma loja de tecnologia inspirada na Dell e Samsung",
-      "descricao": "Uma página estática de uma loja de tecnologia fictícia, inspirada nas duas empresas pioneiras na área Dell e Samsung. Com submenus de itens, login e carrinho de compras. Um carrossel com os principais itens e uma parte de destaque. Contando também com um footer de contato.",
-      "tecnologias": ["Javascript", "HTML", "CSS"],
-      "banner": "https://i.ibb.co/w64680F/Loja-tec.png",
-      "links": {
-        "deploy": "https://loja-tec-landing-page.vercel.app/assets/index.html",
-        "github": "https://github.com/WillianOL/lojaTec-landingPage"
-      }
     }
   ],
   "projetosTodos": [
+    {
+      "id": 10,
+      "titulo": "Cadastro de empregados",
+      "descricao": "Este é um sistema de cadastro de empregados desenvolvido em React, que permite gerenciar uma lista de empregados por meio de funcionalidades como adição, atualização e exclusão. A aplicação utiliza uma API REST para interagir com o backend.",
+      "tecnologias": ["React", "Typescript", "NODE","DOCKER", "PRISMA", "API REST", "SASS"],
+      "banner": "https://i.ibb.co/wNpvqwfg/Group-30.png",
+      "links": {
+        "deploy": "https://cadastro-empregados.vercel.app/",
+        "github": "https://github.com/WillianOL/cadastroEmpregados"
+      }
+    },
     {
       "id": 9,
       "titulo": "Um catálogo online de filmes e séries",
