@@ -4,7 +4,7 @@
       "id": 1,
       "titulo": "Cadastro de empregados",
       "descricao": "Este é um sistema de cadastro de empregados desenvolvido em React, que permite gerenciar uma lista de empregados por meio de funcionalidades como adição, atualização e exclusão. A aplicação utiliza uma API REST para interagir com o backend.",
-      "tecnologias": ["React", "Typescript", "NODE","DOCKER", "PRISMA", "API REST", "SASS"],
+      "tecnologias": ["React", "Typescript", "Node","Express", "Docker", "Prisma", "API REST", "SASS"],
       "banner": "https://i.ibb.co/wNpvqwfg/Group-30.png",
       "links": {
         "deploy": "https://cadastro-empregados.vercel.app/",
@@ -39,7 +39,7 @@
       "id": 10,
       "titulo": "Cadastro de empregados",
       "descricao": "Este é um sistema de cadastro de empregados desenvolvido em React, que permite gerenciar uma lista de empregados por meio de funcionalidades como adição, atualização e exclusão. A aplicação utiliza uma API REST para interagir com o backend.",
-      "tecnologias": ["React", "Typescript", "NODE","DOCKER", "PRISMA", "API REST", "SASS"],
+      "tecnologias": ["React", "Typescript", "Node","Express", "Docker", "Prisma", "API REST", "SASS"],
       "banner": "https://i.ibb.co/wNpvqwfg/Group-30.png",
       "links": {
         "deploy": "https://cadastro-empregados.vercel.app/",
