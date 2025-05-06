@@ -25,6 +25,10 @@ const Experiencias = () => {
           <h3>2024 - Aprendizado em Typescript</h3>
           <p>Neste ano iniciei meus estudos em typescript, pois ele seria de grande ajuda para evitar bugs utilizando sua tipagem que o javascript não pussue e deixando o código mais organizado e legível.</p>
         </li>
+        <li>
+          <h3>2025 - Estágio na empresa DNIT(atual)</h3>
+          <p>Consegui minha primeira oportunidade como desenvolvedor na DNIT, atuando com integração de sistemas e automação de processos internos usando o n8n. Desenvolvo fluxos automatizados, funcionalidades customizadas e soluções que otimizam tarefas repetitivas, contribuindo para a eficiência operacional e a melhoria contínua dos sistemas internos.</p>
+        </li>
       </ul>
     </div>
   )
